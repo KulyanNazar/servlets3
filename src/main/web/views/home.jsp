@@ -12,5 +12,7 @@
 </head>
 <body>
 <h1>home</h1>
+<p>visited:${requestScope.get("visitedBase")}</p>
+<a href="/page">some page</a>
 </body>
 </html>
